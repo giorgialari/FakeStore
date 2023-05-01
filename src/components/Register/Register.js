@@ -47,13 +47,13 @@ function Register() {
   };
   const passwordsMatch = password === confirmPassword;
   return (
-    <>
+    <div className="mt-5">
       <Helmet>
         <title> FakeStore - Register </title>
         <meta name="description" content="Page for Register" />
       </Helmet>
       <Form onSubmit={handleSubmit} className="d-flex flex-column justify-content-center align-items-center">
-        <h3>Sign up</h3>
+        <h3 className="mt-4">Sign up</h3>
         <Alert
           variant="danger"
           id="alert"
@@ -104,7 +104,7 @@ function Register() {
           Submit
         </Button>
       </Form>
-    </>
+    </div>
   );
 }
 

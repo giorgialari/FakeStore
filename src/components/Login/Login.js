@@ -37,7 +37,7 @@ function Login() {
     userLogin(credentials);
   };
   return (
-    <>
+    <div className="mt-5">
      <Helmet>
         <title> FakeStore - Login </title>
         <meta
@@ -46,7 +46,7 @@ function Login() {
         />
       </Helmet>
     <Form onSubmit={handleSubmit}>
-    <h3>Sign in</h3>
+    <h3 className="mt-4">Sign in</h3>
       <Alert
         variant="danger"
         id="alert"
@@ -70,7 +70,7 @@ function Login() {
         Submit
       </Button>
     </Form>
-    </>
+    </div>
   );
 }
 
