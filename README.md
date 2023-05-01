@@ -1,6 +1,30 @@
-# Getting Started with Create React App
+# FakeStore Management - FrontEnd Project for Start2Impact
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Schermata 2023-04-25 alle 10 01 21](https://user-images.githubusercontent.com/91114037/234221834-8bc14c77-fc11-4cc8-a10d-853c1c05b71a.png)
+
+Welcome to the GitHub repository for the FakeStore Management web app, a project created as part of the FrontEnd course at Start2Impact. This React-based web app simulates a management system for managing products in an online store.
+
+## Project Overview!
+
+
+The web app allows users to log in using the following credentials:
+```
+Email: eve.holt@reqres.in
+Password: cityslicka
+```
+These credentials rely on the API provided by [Reqres](https://reqres.in/api/login). The rest of the application is built using the  [FakeStoreAPI](https://fakestoreapi.com/docs).
+
+Users can perform various operations, such as adding, editing, and deleting products. Although these operations will trigger a success message if the server call is successful, they will not affect the actual database. To inform users about this behavior, alert messages are displayed confirming the changes made to the product.
+
+## Resposnive Design
+
+The application is fully responsive and adapts well to mobile devices, ensuring a seamless user experience across different screen sizes and platforms.
+ 
+## Testing the App
+
+To test the app, please visit: [https://fakestoremanagement.netlify.app/](https://fakestoremanagement.netlify.app/)
+
+
 
 ## Available Scripts
 
