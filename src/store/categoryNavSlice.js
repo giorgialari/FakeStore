@@ -1,17 +1,17 @@
-import { createSlice } from '@reduxjs/toolkit';
+import { createSlice } from "@reduxjs/toolkit";
 
 const categorySlice = createSlice({
-    name: 'categoryNavStore',
-    initialState: {
-        currentCategory: [],
+  name: "categoryNavStore",
+  initialState: {
+    currentCategory: [],
+  },
+  reducers: {
+    getAllCategoriesStore: (state, action) => {
+      state.currentCategory = action.payload;
     },
-    reducers: {
-        getAllCategoriesStore: (state, action) => {
-            state.currentCategory = action.payload;
-        },
-    },
+  },
 });
 
-export const { getAllCategoriesStore} = categorySlice.actions;
+export const { getAllCategoriesStore } = categorySlice.actions;
 
 export default categorySlice.reducer;

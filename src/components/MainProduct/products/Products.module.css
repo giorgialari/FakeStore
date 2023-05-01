@@ -1,4 +1,4 @@
-.products{
+.products {
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
@@ -6,52 +6,58 @@
   padding-bottom: 50px;
 }
 
-.single-product{
-height: 250px;
-    margin-right: 10px;
+.single-product {
+  height: 250px;
+  margin-right: 10px;
   margin-bottom: 10px;
+}
 
+.single-product-img {
+  max-width: 100px;
+  height: 150px;
 }
-.single-product-img{
-    max-width: 100px;
-    height: 150px;
-}
-.card-title{
-display: block;
+
+.card-title {
+  display: block;
   width: 200px;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
   font-size: 16px;
+}
 
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-.card-body{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
+
 .btn {
   font-size: 14px;
 }
-.btn-container{
+
+.btn-container {
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
-.pagination-container{
+
+.pagination-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
   margin-top: 20px;
 }
-.select-container>select{
+
+.select-container > select {
   max-width: 90px;
   margin-right: 10px;
 }
+
 /* Add custom media queries for responsive search bar */
 @media (max-width: 575.98px) {
   .search-container {
-      margin-bottom: 1rem;
+    margin-bottom: 1rem;
   }
 }

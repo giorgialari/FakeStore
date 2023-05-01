@@ -1,22 +1,22 @@
 .navbar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    color: black;
-    font-size: 18px;
-    z-index: 9999;
-    left:0;
-}
-.navbar .container>p {
-    margin-bottom: 0px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  color: black;
+  font-size: 18px;
+  z-index: 9999;
+  left: 0;
 }
 
-.navbar-collapse>div>div {
-    margin: auto
+.navbar .container > p {
+  margin-bottom: 0px;
 }
 
-.navbar>.container{
-    display: flex;
-    flex-direction: row;
+.navbar-collapse > div > div {
+  margin: auto;
+}
 
+.navbar > .container {
+  display: flex;
+  flex-direction: row;
 }
